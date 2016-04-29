@@ -1,0 +1,68 @@
+/* 
+    Created on : 13-Mar-2016, 5:06:47 PM
+    Author     : Jaskaranbir
+*/
+
+@font-face{
+    src: url('../res/fonts/playStats.ttf');
+}
+
+@font-face{
+    src: url('../res/fonts/pauseFont.ttf');
+}
+
+.button{
+    -fx-padding: 0px 10px 0px 10px;
+    -fx-focus-color: transparent;
+    -fx-background-color: none;
+    -fx-faint-focus-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-size: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 3, 1, 0, 0);
+}
+
+.button:focused{
+    -fx-graphic: url('../res/menu_nav.png');
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 3, 1, 0, 0);
+}
+
+.button:hover{
+    -fx-graphic: url('../res/menu_nav.png');
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 3, 1, 0, 0);
+}
+
+#menuContainer{
+    -fx-background-color: rgb(166, 39, 40);
+}
+
+#quitDialog{
+    -fx-background-image: url('../res/sprites/stage/brick_alt.png');
+    -fx-border-color: white;
+    -fx-border-width: 14px;
+    -fx-border-radius: 15px;
+}
+
+#quitConfirmLbl{
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 3, 1, 0, 0);
+    -fx-font-weight:bold
+}
+
+#statsLabel{
+    -fx-font-size:30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 5, 1, 0, 0);
+    -fx-background-color: rgba(0,0,0, 0.6);
+    -fx-padding: 10px;
+    -fx-text-fill: rgba(255,255,255,0.8);
+}
+
+#scoresDisplayLabel{
+    -fx-font-family: "Press Start K";
+    -fx-text-fill: white;
+}
+
+#pauseLbl {
+    -fx-font-family: "Quantifier NBP";
+    -fx-font-size: 70px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 3, 1, 0, 0);
+}
