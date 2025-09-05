@@ -42,6 +42,6 @@ Jaskaranbir
 
 
   [1]: https://github.com/Jaskaranbir/Super-Mario/tree/master/dist/SuperMario.jar
-  [2]: http://i.stack.imgur.com/ku96E.png
-  [3]: http://i.stack.imgur.com/9pcvb.png
-  [4]: http://i.stack.imgur.com/JnGzx.png
+  [2]: https://github.com/Jaskaranbir/Super-Mario/blob/master/screenshots/1.png?raw=true
+  [3]: https://github.com/Jaskaranbir/Super-Mario/blob/master/screenshots/2.png?raw=true
+  [4]: https://github.com/Jaskaranbir/Super-Mario/blob/master/screenshots/3.png?raw=true
